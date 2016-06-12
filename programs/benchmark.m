@@ -48,9 +48,12 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
 
 % selection of the algorithm (Benchmark Solution) to be assessed
 % PARAMETERS.SolutionName  = 'CI-GRAPH Stereo.csv';   % Bicocca_2009-02-25b
- PARAMETERS.SolutionName  = 'GraphSLAM Laser.csv';   % Bicocca_2009-02-25b
+% PARAMETERS.SolutionName  = 'GraphSLAM Laser.csv';   % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'H-SLAM Trinocular.csv'; % Bicocca_2009-02-25b
-%  PARAMETERS.SolutionName  = 'EKF Monocular.csv';     % Bovisa_2008-10-04
+% PARAMETERS.SolutionName  = 'EKF Monocular.csv';     % Bovisa_2008-10-04
+PARAMETERS.SolutionName  = 'experiments/rawseeds_rear_front.csv';     % Bovisa_2008-10-04
+
+
 
 % selection of the ground truth to be used as a reference
 % PARAMETERS.GT_name       = '-GROUNDTRUTH.csv';  % only for Bicocca/indoor
