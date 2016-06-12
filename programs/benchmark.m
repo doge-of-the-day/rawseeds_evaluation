@@ -51,8 +51,7 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
 % PARAMETERS.SolutionName  = 'GraphSLAM Laser.csv';   % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'H-SLAM Trinocular.csv'; % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'EKF Monocular.csv';     % Bovisa_2008-10-04
-PARAMETERS.SolutionName  = 'experiments/rawseeds_rear_front.csv';     % Bovisa_2008-10-04
-
+PARAMETERS.SolutionName  = 'experiments/rawseeds_front.csv';
 
 
 % selection of the ground truth to be used as a reference

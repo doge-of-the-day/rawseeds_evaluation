@@ -171,15 +171,19 @@ plot(X(:,2),X(:,3),'c',X_e(:,1),X_e(:,2),'bx',GT_e(:,1),GT_e(:,2),'-r.');
     title(DATASET,'Interpreter','none')
     legend(SOLname,[SOLname,' in the GT zone'],GTname)
 
-    figure('name','Our histogramm')
-    hist3(errors(:,1:2), [100,100]);
-    pointsize = 10;
-    scatter3(errors(:,1), errors(:,2),errors(:,3), pointsize)
-
+    n = hist3(errors(:,1:2), [200,200]);
     figure('name','error distribution')
-    hist3(errors(:,1:2), [100,100]);
-
-
+    xb = linspace(min(errors(:,1)),max(errors(:,1)),size(n,1));  
+    yb = linspace(min(errors(:,2)),max(errors(:,2)),size(n,2)); 
+    [x,y] = meshgrid(xb,yb);
+    zgrid = gridfit(x(:), y(:), n, size(n,1), size(n,2));  
+    surf(x, y, zgrid, 'EdgeColor','none')
+    set(gca,'YDir','reverse');
+    view(-90,90);  
+    xlabel('x')
+    ylabel('y')
+    zlabel('error count')
+    
     figure('name','RAWSEEDS METRICS COMPUTATION TOOLKIT')
     [yh,xh]=hist(error_modulus(:,1),100);
     bar(xh,yh,'c','BarWidth',0.8,'EdgeColor','c');
