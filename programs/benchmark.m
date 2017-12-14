@@ -51,14 +51,16 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
 % PARAMETERS.SolutionName  = 'GraphSLAM Laser.csv';   % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'H-SLAM Trinocular.csv'; % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'EKF Monocular.csv';     % Bovisa_2008-10-04
-PARAMETERS.SolutionName  = 'experiments/01/logged_trajectory.csv';
+%PARAMETERS.SolutionName  = 'Bicocca_2009-02-25b-GROUNDTRUTH_CARTOGRAPHER.csv';
+PARAMETERS.SolutionName  = 'Bicocca_2009-02-25b-GT-extended.csv';
 
 
 % selection of the ground truth to be used as a reference
 % PARAMETERS.GT_name       = '-GROUNDTRUTH.csv';  % only for Bicocca/indoor
-  PARAMETERS.GT_name       = '-GT-extended.csv';  % only for Bicocca/indoor
+%  PARAMETERS.GT_name       = '-GT-extended.csv';  % only for Bicocca/indoor
+  PARAMETERS.GT_name       = '-GROUNDTRUTH-CARTOGRAPHER.csv';  % only for Bicocca/indoor
 % PARAMETERS.GT_name       = '-GPS.csv';          % only for Bovisa/outdoor
-  PARAMETERS.GT_rel_name   = '.relations';        % for all datasets
+  PARAMETERS.GT_rel_name   = '-GROUNDTRUTH-CARTOGRAPHER.relations';        % for all datasets
 
 example = 0;  % Change this number to try the different examples provided, 
               % instead of using the previous parameters 
