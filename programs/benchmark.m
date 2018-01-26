@@ -34,11 +34,11 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
                                  %  - NaN to use full trajectory
 
 % selection of the dataset to use
-% PARAMETERS.DatasetName   = 'Bicocca_2009-02-25a';  % Indoor
+ PARAMETERS.DatasetName   = 'Bicocca_2009-02-25a';  % Indoor
 % PARAMETERS.DatasetName   = 'Bicocca_2009-02-25b';  % Indoor
 % PARAMETERS.DatasetName   = 'Bicocca_2009-02-26a';  % Indoor
 % PARAMETERS.DatasetName   = 'Bicocca_2009-02-26b';  % Indoor
- PARAMETERS.DatasetName   = 'Bicocca_2009-02-27a';  % Indoor
+% PARAMETERS.DatasetName   = 'Bicocca_2009-02-27a';  % Indoor
 % PARAMETERS.DatasetName   = 'Bovisa_2008-09-01';    % Mixed
 % PARAMETERS.DatasetName   = 'Bovisa_2008-10-06';    % Mixed
 % PARAMETERS.DatasetName   = 'Bovisa_2008-10-11a';   % Mixed
@@ -52,7 +52,7 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
 % PARAMETERS.SolutionName  = 'H-SLAM Trinocular.csv'; % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'EKF Monocular.csv';     % Bovisa_2008-10-04
 %PARAMETERS.SolutionName  = 'Bicocca_2009-02-25b-GROUNDTRUTH_CARTOGRAPHER.csv';
-PARAMETERS.SolutionName  = 'amcl_beam_model_default.csv';
+PARAMETERS.SolutionName  = 'muse_likelihood_default.csv';
 
 
 % selection of the ground truth to be used as a reference
