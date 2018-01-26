@@ -36,9 +36,9 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
 % selection of the dataset to use
 % PARAMETERS.DatasetName   = 'Bicocca_2009-02-25a';  % Indoor
 % PARAMETERS.DatasetName   = 'Bicocca_2009-02-25b';  % Indoor
- PARAMETERS.DatasetName   = 'Bicocca_2009-02-26b';  % Indoor
+% PARAMETERS.DatasetName   = 'Bicocca_2009-02-26a';  % Indoor
 % PARAMETERS.DatasetName   = 'Bicocca_2009-02-26b';  % Indoor
-% PARAMETERS.DatasetName   = 'Bicocca_2009-02-27a';  % Indoor
+ PARAMETERS.DatasetName   = 'Bicocca_2009-02-27a';  % Indoor
 % PARAMETERS.DatasetName   = 'Bovisa_2008-09-01';    % Mixed
 % PARAMETERS.DatasetName   = 'Bovisa_2008-10-06';    % Mixed
 % PARAMETERS.DatasetName   = 'Bovisa_2008-10-11a';   % Mixed
