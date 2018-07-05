@@ -52,7 +52,8 @@ PARAMETERS.alignment_path= NaN;  % interval used for GT alignment in ATE
 % PARAMETERS.SolutionName  = 'H-SLAM Trinocular.csv'; % Bicocca_2009-02-25b
 % PARAMETERS.SolutionName  = 'EKF Monocular.csv';     % Bovisa_2008-10-04
 %PARAMETERS.SolutionName  = 'Bicocca_2009-02-25b-GROUNDTRUTH_CARTOGRAPHER.csv';
-PARAMETERS.SolutionName  = 'muse_likelihood_test.csv';
+PARAMETERS.SolutionName   = 'muse_beam_model_default_new_cluster.csv';
+%PARAMETERS.SolutionName   = 'amcl_likelihood_default.csv';
 
 
 % selection of the ground truth to be used as a reference
